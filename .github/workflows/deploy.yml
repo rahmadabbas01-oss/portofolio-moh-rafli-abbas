@@ -18,7 +18,7 @@ jobs:
       - run: flutter pub get
 
       # Build web dengan base href sesuai nama repository Anda
-      - run: flutter build web --release --base-href "/portofolio-moh-rafli-abbas/"
+      - run: flutter build web --release --base-href "/"
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
