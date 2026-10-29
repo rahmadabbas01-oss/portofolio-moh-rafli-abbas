@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_test/flutter_test.dart';
-import 'package:portofolio_rahmad/main.dart';
+import 'package:portofolio_rafli/main.dart';
 
 void main() {
   testWidgets('Portfolio menampilkan bagian utama', (WidgetTester tester) async {
